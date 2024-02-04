@@ -1,0 +1,21 @@
+<!-- Resource Collection File -->
+<RCC>
+    <!-- Define a resource group with the prefix "/images" -->
+    <qresource prefix="/images">
+        <!-- Include mine_flag.png with an alias "flag" for easy reference in the code. 
+             This image is typically used to mark cells suspected of containing mines. -->
+        <file alias="flag">mine_flag.png</file>
+        
+        <!-- Include bomb.png with an alias "bomb" for easy reference in the code.
+             This image represents an unexploded bomb/mine. -->
+        <file alias="bomb">bomb.png</file>
+        
+        <!-- Include bomb_explode.png with an alias "bomb_explode" for easy reference in the code.
+             This image is used to show a bomb/mine that has exploded, typically when the game is lost. -->
+        <file alias="bomb_explode">bomb_explode.png</file>
+        
+        <!-- Include bomb_explode_sm.png with an alias "bomb_explode_sm" for smaller representations.
+             This image might be used in dialogs or smaller UI elements to indicate a loss. -->
+        <file alias="bomb_explode_sm">bomb_explode_sm.png</file>
+    </qresource>
+</RCC>

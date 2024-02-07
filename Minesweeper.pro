@@ -1,3 +1,8 @@
+# Author: Hirbod Hosseini (251234419) 
+# Description of file contents: .pro file needed for qmake
+# Date: Feb 2nd, 2024
+
+
 # Add core, gui, and widgets modules from the Qt framework to the project.
 QT += core gui widgets
 
@@ -12,14 +17,17 @@ TARGET = Minesweeper
 # main.cpp is the entry point of the application, and Minesweeper.cpp contains
 # the implementation of the Minesweeper game logic and UI.
 SOURCES += main.cpp \
-           Minesweeper.cpp
+           Minesweeper.cpp \
+           Cell.cpp
 
 # List of header files used in the project.
 # Minesweeper.h is the header for the Minesweeper game's main class.
-HEADERS += Minesweeper.h
+HEADERS += Minesweeper.h \
+           Cell.h
 
 # List of resource files (.qrc) which include assets like images and icons
 # used within the application. Resources are compiled into the application binary.
+# I had to do this because for some reason local paths wouldn't work. I know there is a much easier way I just couldn't get it running that way
 RESOURCES += resources.qrc
 
 # Placeholder for UI form files (if using Qt Designer for UI layout).

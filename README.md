@@ -1,4 +1,5 @@
-# Hirbod's Minesweeper
+# Hirbod's Minesweeper ![ms](https://github.com/user-attachments/assets/d24ec014-1a74-43c1-bd1e-8214afac69ba)
+
 
 ## Introduction
 This project is a C++ implementation of the classic Minesweeper game. It features a graphical user interface (GUI) built with Qt framework and the classic Minesweeper gameplay experience with a modern touch.
